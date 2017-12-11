@@ -19,6 +19,7 @@ chmod 0755 kubectl
 sudo mv kubectl /usr/local/bin
 
 echo "Install the Bluemix container-service plugin"
+echo "force install the container-service"
 yes | bx plugin install container-service -r Bluemix -f <<-EOF
 yes
 EOF
